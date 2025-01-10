@@ -5,7 +5,7 @@ FROM python:3.12
 RUN pip install poetry
 
 # Copies files from the jornada_challenges/first_crud directory to the container
-COPY jornada_challenges/first_crud /src
+COPY ./first_crud /src
 
 # Set the working directory for subsequent commands in the Dockerfile
 WORKDIR /src
