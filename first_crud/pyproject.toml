@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "first-crud"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Magno"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+sqlalchemy = "^2.0.36"
+pydentic = "^0.0.1.dev3"
+pydantic = "^2.10.3"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
